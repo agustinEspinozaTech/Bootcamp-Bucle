@@ -20,7 +20,7 @@ for (contador = 1; contador <= cantidadDeGatos; contador++) {
     for (contadorHuellas = 1; contadorHuellas <= cantidadDePasos; contadorHuellas++) {
         huellas += '🐾'
 
-        console.log('Gato #' + contador + ': 🐈' + huellas);
-    }
 
+    }
+    console.log('Gato #' + contador + ': 🐈' + huellas);
 }
