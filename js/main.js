@@ -24,3 +24,19 @@ for (contador = 1; contador <= cantidadDeGatos; contador++) {
     }
     console.log('Gato #' + contador + ': 🐈' + huellas);
 }
+
+console.log('Ejercicio C');
+var cantidadDeGatos = 10;
+var cantidadDePasos = 4;
+
+for (contador = 1; contador <= cantidadDeGatos; contador++) {
+
+    var gatoNegro = contador +
+        (contador % 2 == 0 ? '⬛' : '')
+    var huellas = ''
+    for (contadorHuellas = 1; contadorHuellas <= cantidadDePasos; contadorHuellas++) {
+        huellas += '🐾'
+
+    }
+    console.log('Gato #' + contador + ': 🐈' + gatoNegro + huellas);
+}
